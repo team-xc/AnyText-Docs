@@ -107,9 +107,9 @@ export default defineConfig({
         {
           text: '上下文',
           items: [
-            {text: '进度 (progress)', link: '/api/progress'},
-            {text: '选项 (options)', link: '/api/options'},
-            {text: '通知 (notification)', link: '/api/notification'}
+            {text: '进度 (Progress)', link: '/api/progress'},
+            {text: '选项 (Options)', link: '/api/options'},
+            {text: '通知 (Notification)', link: '/api/notification'}
           ]
         },
         {
