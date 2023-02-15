@@ -1,12 +1,13 @@
 ---
-title: Docs with VitePress
-editLink: true
 layout: home
 
 hero:
-  name: VuePress
-  text: Vite & Vue powered static site generator.
+  name: VitePress-Fun
+  text: VitePress趣玩系列
   tagline: Lorem ipsum...
+  image:
+    src: /cat.png
+    alt: VitePress
   actions:
     - theme: brand
       text: Get Started
@@ -26,25 +27,3 @@ features:
     title: Simple and minimal, always
     details: Lorem ipsum...
 ---
-
-# Hello VitePress1
-
-{{ $frontmatter.title }}
-# Hello VitePress111
-
-
-## Hello VitePress111
-# Hello VitePress111
-# Hello VitePress111
-
-::: v-pre
-`{{ This will be displayed as-is }}`
-:::
-
-### Title <Badge type="info" text="default" />
-
-### Title <Badge type="tip" text="^1.9.0" />
-
-### Title <Badge type="warning" text="beta" />
-
-### Title <Badge type="danger" text="caution" />
