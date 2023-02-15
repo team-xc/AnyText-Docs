@@ -9,7 +9,7 @@ export default defineConfig({
       {text: '入门', link: '/manual/introduction', activeMatch: '^/manual/'},
       {text: '开发', link: '/guide/', activeMatch: '^/guide/'},
       {text: 'API', link: '/api/', activeMatch: '^/api/'},
-      {text: '资源', link: '/resources/', activeMatch: '^/resources/'},
+      {text: '资源', link: '/resources/examples', activeMatch: '^/resources/'},
       {
         text: '更多',
         items: [
@@ -34,7 +34,16 @@ export default defineConfig({
           text: '基本',
           items: [
             {text: '认识界面', link: '/manual/interface'},
-            {text: '扩展安装', link: '/manual/install'}
+            {text: '安装与卸载', link: '/manual/install'}
+          ]
+        },
+        {
+          text: '能力',
+          items: [
+            {text: '扩展插件', link: '/manual/interface'},
+            {text: '色彩主题', link: '/manual/install'},
+            {text: '语言翻译', link: '/manual/install'},
+            {text: '扩展包', link: '/manual/install'}
           ]
         }
       ],
@@ -45,7 +54,8 @@ export default defineConfig({
           items: [
             {text: '新建文件', link: '/guide/C'},
             {text: '引用资源', link: '/guide/C'},
-            {text: '基础组件', link: '/guide/C'}
+            {text: '基础组件', link: '/guide/C'},
+            {text: '安装预览', link: '/guide/C'}
           ]
         },
         {
@@ -94,33 +104,112 @@ export default defineConfig({
       '/api/': [
         {text: '总揽', link: '/guide/'},
         {
-          text: '处理进度',
+          text: '上下文',
           items: [
-            {text: 'B', link: '/api/C'}
+            {text: '进度 (progress)', link: '/api/C'},
+            {text: '选项 (options)', link: '/api/C'},
+            {text: '通知 (notification)', link: '/api/C'}
+          ]
+        },
+        {
+          text: '基础组件',
+          items: [
+            {text: '代码编辑器 (CodeEditor)', link: '/api/C'},
+            {text: '差异编辑器 (DiffEditor)', link: '/api/C'},
+            {text: '代码编辑器和差异编辑器 (CodeEditorWithDiffEditor)', link: '/api/C'},
+            {text: '双代码编辑器 (DualCodeEditor)', link: '/api/C'}
+          ]
+        },
+        {
+          text: 'HOOK',
+          items: [
+            {text: 'useClassName', link: '/api/C'},
+            {text: 'useCopyToClipboard', link: '/api/C'},
+            {text: 'useCopyToClipboardWithoutResult', link: '/api/C'},
+            {text: 'useDebounce', link: '/api/C'},
+            {text: 'useQuerySelector', link: '/api/C'},
+            {text: 'useQuerySelectorAll', link: '/api/C'},
+            {text: 'useQuerySelectorAll', link: '/api/C'},
+            {text: 'useCreateElement', link: '/api/C'},
+            {text: 'useCreateTextNode', link: '/api/C'},
+            {text: 'useFunctionList', link: '/api/C'},
+            {text: 'useIs', link: '/api/C'},
+            {text: 'useIsFunction', link: '/api/C'},
+            {text: 'useIsDef', link: '/api/C'},
+            {text: 'useIsUnDef', link: '/api/C'},
+            {text: 'useIsObject', link: '/api/C'},
+            {text: 'useIsDate', link: '/api/C'},
+            {text: 'useIsNumber', link: '/api/C'},
+            {text: 'useIsAsyncFunction', link: '/api/C'},
+            {text: 'useIsPromise', link: '/api/C'},
+            {text: 'useIsString', link: '/api/C'},
+            {text: 'useIsBoolean', link: '/api/C'},
+            {text: 'useIsArray', link: '/api/C'},
+            {text: 'useIsClient', link: '/api/C'},
+            {text: 'useIsWindow', link: '/api/C'},
+            {text: 'useIsElement', link: '/api/C'},
+            {text: 'useIsImageDom', link: '/api/C'},
+            {text: 'useIsNull', link: '/api/C'},
+            {text: 'useIsNullAndUnDef', link: '/api/C'},
+            {text: 'useIsNullOrUnDef', link: '/api/C'},
+            {text: 'useKeyboardEvent', link: '/api/C'},
+            {text: 'useMenu', link: '/api/C'},
+            {text: 'useMenuEvent', link: '/api/C'},
+            {text: 'useCreateMenu', link: '/api/C'},
+            {text: 'useDestroyMenu', link: '/api/C'},
+            {text: 'useModal', link: '/api/C'},
+            {text: 'useOpenModal', link: '/api/C'},
+            {text: 'useCloseModal', link: '/api/C'},
+            {text: 'useSetModalProps', link: '/api/C'},
+            {text: 'useOnCloseModal', link: '/api/C'},
+            {text: 'useOnOpenModal', link: '/api/C'},
+            {text: 'useOnDestroyModal', link: '/api/C'},
+            {text: 'useOnModalEvent', link: '/api/C'},
+            {text: 'useModalReceiveProps', link: '/api/C'},
+            {text: 'useCreateModal', link: '/api/C'},
+            {text: 'useDestroyModal', link: '/api/C'},
+            {text: 'useResizeListener', link: '/api/C'},
+            {text: 'useRTF', link: '/api/C'},
+            {text: 'useRTFText', link: '/api/C'},
+            {text: 'useScrollTo', link: '/api/C'},
+            {text: 'useScrollIntoView', link: '/api/C'},
+            {text: 'useScroll', link: '/api/C'},
+            {text: 'useSetState', link: '/api/C'},
+            {text: 'useTimeout', link: '/api/C'},
+            {text: 'useToast', link: '/api/C'},
+            {text: 'useUUID', link: '/api/C'},
+            {text: 'useWheelHorizontal', link: '/api/C'},
+            {text: 'useMD5', link: '/api/C'},
+            {text: 'useReloadPage', link: '/api/C'},
+            {text: 'useOpenUrl', link: '/api/C'}
           ]
         }
       ],
       '/resources/': [
         {
-          text: 'A',
+          text: '社区',
           items: [
-            {text: 'B', link: '/resources/C'}
+            {text: '参与讨论', link: '/resources/contact'},
+            {text: '示例项目', link: '/resources/examples'}
           ]
         }
       ],
       '/faq/': [
         {
-          text: 'A',
+          text: '常见问题',
           items: [
-            {text: 'B', link: '/faq/C'}
+            {text: '为什么？', link: '/faq/index'},
+            {text: '为什么？', link: '/faq/C'},
+            {text: '为什么？', link: '/faq/C'}
           ]
         }
       ],
       '/about/': [
+        {text: '关于我', link: '/about/index'},
         {
-          text: 'A',
+          text: '更新与迁移',
           items: [
-            {text: 'B', link: '/about/C'}
+            {text: 'v0.0.1 版本介绍', link: '/faq/index'}
           ]
         }
       ]
