@@ -1,0 +1,14 @@
+{
+  "name": "anytext-docs",
+  "private": true,
+  "version": "v0.0.1",
+  "scripts": {
+    "dev": "vitepress dev --port 3302",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.46",
+    "vue": "^3.2.47"
+  }
+}
