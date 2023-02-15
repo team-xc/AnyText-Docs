@@ -1,7 +1,6 @@
 import { defineConfigWithTheme } from 'vitepress'
 import theme from './modules/theme'
 import head from './modules/head'
-import locales from './modules/locales'
 
 export default defineConfigWithTheme({
   lang: 'zh-CN',
@@ -13,6 +12,5 @@ export default defineConfigWithTheme({
   cacheDir: '.vitepress/.cache',
   srcDir: 'docs',
   ...head,
-  ...theme,
-  ...locales
+  ...theme
 })

@@ -1,4 +1,6 @@
-export default {
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     siteTitle: 'Hello World',
@@ -95,4 +97,4 @@ export default {
       next: 'Proxima pagina'
     }
   }
-}
+})
