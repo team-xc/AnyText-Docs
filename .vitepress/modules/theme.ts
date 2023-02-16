@@ -53,7 +53,7 @@ export default defineConfig({
         {
           text: '开发上手',
           items: [
-            {text: '新建文件', link: '/guide/create-an-expansion'},
+            {text: '基本配置', link: '/guide/basic-config'},
             {text: '资源引用', link: '/guide/resources-refs'},
             {text: '基础组件', link: '/guide/basic-components'},
             {text: '安装预览', link: '/guide/expansion-preview'}
