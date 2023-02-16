@@ -35,7 +35,7 @@ export default defineConfig({
           text: '基本',
           items: [
             {text: '认识界面', link: '/manual/interface'},
-            {text: '安装与卸载', link: '/manual/install'}
+            {text: '安装与卸载', link: '/manual/install-and-uninstall'}
           ]
         },
         {

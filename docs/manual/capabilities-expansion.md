@@ -1,50 +1,8 @@
----
-title: Docs with VitePress
-editLink: true
-layout: home
-
-hero:
-  name: VuePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
-  actions:
-    - theme: brand
-      text: Get Started
-      link: /guide/what-is-vitepress
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
-
-features:
-  - icon: ⚡️
-    title: Vite, The DX that can't be beat
-    details: Lorem ipsum...
-  - icon: 🖖
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
-  - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
----
-
-# Hello VitePress1
-
-{{ $frontmatter.title }}
-# Hello VitePress111
-
-
-## Hello VitePress111
-# Hello VitePress111
-# Hello VitePress111
-
-::: v-pre
-`{{ This will be displayed as-is }}`
-:::
-
-### Title <Badge type="info" text="default" />
-
-### Title <Badge type="tip" text="^1.9.0" />
-
-### Title <Badge type="warning" text="beta" />
-
-### Title <Badge type="danger" text="caution" />
+# 扩展插件
+AnyText 提供了非常多的方法，供插件扩展 AnyText 的文本处理能力。这些方法包括：
+- 运行配置选项
+- 快捷键绑定
+- 上下文菜单
+- 模态弹框
+- 显示通知信息
+- 使用进度 API 提示耗时较长的操作
