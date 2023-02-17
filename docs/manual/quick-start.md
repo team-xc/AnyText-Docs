@@ -1,5 +1,5 @@
 # 快速上手
-本节将帮助你快速上手，了解如何使用创建一个基本的[扩展](capabilities-expansion)。
+本节将帮助你快速上手，了解如何使用创建一个基本的[扩展](capabilities-expansion)。你可以在 [资源：示例项目](/resources/examples) 中找到本节教程的完整代码。
 
 ## 创建一个 AnyText 扩展
 下面是一个字符统计的例子：

@@ -65,8 +65,7 @@ export default defineConfig({
             {text: '环境搭建', link: '/guide/setup'},
             {text: '配置文件', link: '/guide/config'},
             {text: '打包脚本', link: '/guide/script'},
-            {text: '自定义组件', link: '/guide/custom-component'},
-            {text: '使用 iFrame', link: '/guide/iframe'}
+            {text: '自定义组件', link: '/guide/custom-component'}
           ]
         },
         {
