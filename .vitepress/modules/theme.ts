@@ -55,8 +55,8 @@ export default defineConfig({
           items: [
             {text: '基本配置', link: '/guide/basic-config'},
             {text: '资源引用', link: '/guide/resources-refs'},
-            {text: '基础组件', link: '/guide/basic-components'},
-            {text: '安装预览', link: '/guide/expansion-preview'}
+            {text: '生命周期', link: '/guide/lifecycle'},
+            {text: '基础组件', link: '/guide/basic-components'}
           ]
         },
         {
@@ -73,7 +73,6 @@ export default defineConfig({
           text: '交互基础',
           items: [
             {text: '快速上手', link: '/guide/examples'},
-            {text: '生命周期', link: '/guide/lifecycle'},
             {text: '运行配置', link: '/guide/options'},
             {text: '进度处理', link: '/guide/progress'},
             {text: '消息通知', link: '/guide/notification'}
