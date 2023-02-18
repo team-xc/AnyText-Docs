@@ -81,8 +81,7 @@ export default defineConfig({
           text: '界面元素',
           items: [
             {text: '色彩主题', link: '/guide/theme'},
-            {text: '语言翻译', link: '/guide/translation'},
-            {text: '安装预览', link: '/guide/preview'}
+            {text: '语言翻译', link: '/guide/translation'}
           ]
         },
         {
