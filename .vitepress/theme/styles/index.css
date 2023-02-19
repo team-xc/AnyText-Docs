@@ -1,0 +1,11 @@
+.modal-back .flex-logo {
+  display: none;
+}
+
+.modal-back .search-list:empty {
+  display: none;
+}
+
+.DocSearch-Input {
+  background-color: unset;
+}
