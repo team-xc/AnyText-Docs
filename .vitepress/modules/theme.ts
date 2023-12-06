@@ -190,7 +190,7 @@ export default defineConfig({
     },
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present Alone'
+      copyright: 'Copyright © 2022-present 佛山市南海区天宏陵阳科技工程部'
     },
     editLink: {
       pattern: 'https://github.com/xc912/AnyText-Docs/edit/master/docs/:path',
