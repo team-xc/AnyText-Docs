@@ -25,7 +25,7 @@ export const config = {
 
 让我们创建一个名为 `character-count.js` 的文件，将上面的代码复制进去。
 
-然后把这个文件拖动到 [AnyText](https:/anytext.cn) 中，接下来：
+然后把这个文件拖动到 [AnyText](https://anytext.cn) 中，接下来：
 
 - 点击左侧 `默认分类` 图标，找到 `字符统计`，点击它
 - 输入 `AnyText`，然后点击 `运行` 按钮

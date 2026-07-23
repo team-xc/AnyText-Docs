@@ -37,7 +37,7 @@ created dist/my-extension.js in 277ms
 
 现在我们观察项目目录，你会发现多了一个 `dist` 文件夹，里面有一个 `my-extension.js` 文件，这就是我们打包后的扩展文件。
 
-将 `dist/my-extension.js` 文件拖动到 [AnyText](https:/anytext.cn) 中安装测试，你将看到类似如下的界面：
+将 `dist/my-extension.js` 文件拖动到 [AnyText](https://anytext.cn) 中安装测试，你将看到类似如下的界面：
 ![构建测试](/build-test.png)
 
 如果你还不会安装扩展，请参考 [入门：安装与卸载](/manual/install-and-uninstall)。

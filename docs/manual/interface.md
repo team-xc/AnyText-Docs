@@ -1,5 +1,5 @@
 # 认识界面
-打开 [AnyText](https:/anytext.cn)，你会看到如下界面：
+打开 [AnyText](https://anytext.cn)，你会看到如下界面：
 ![启动界面](/interface.png)
 
 ## 侧边栏：分类列表

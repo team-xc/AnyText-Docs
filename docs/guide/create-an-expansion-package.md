@@ -17,7 +17,7 @@ Foo
 └── manifest.json
 ```
 
-将这些文件压缩成一个 `zip` 文件，然后将其拖动到 [AnyText](https:/anytext.cn) 中安装即可。
+将这些文件压缩成一个 `zip` 文件，然后将其拖动到 [AnyText](https://anytext.cn) 中安装即可。
 
 如果你还不会安装扩展包，请参考 [入门：安装与卸载](/manual/install-and-uninstall)。
 

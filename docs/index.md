@@ -14,7 +14,7 @@ hero:
       link: /manual/introduction
     - theme: alt
       text: 立即体验
-      link: https:/anytext.cn
+      link: https://anytext.cn
 
 features:
   - icon: 💡

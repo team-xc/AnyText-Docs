@@ -196,7 +196,7 @@ my-extension
 yarn build
 ```
 
-将 `dist/my-extension.js` 文件拖动到 [AnyText](https:/anytext.cn) 中安装测试，你将看到类似如下的界面：
+将 `dist/my-extension.js` 文件拖动到 [AnyText](https://anytext.cn) 中安装测试，你将看到类似如下的界面：
 ![自定义组件](/custom-component.png)
 
 如果你还不会安装扩展，请参考 [入门：安装与卸载](/manual/install-and-uninstall)。
